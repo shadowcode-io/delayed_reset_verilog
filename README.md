@@ -3,6 +3,7 @@ Delayed reset pulse to mitigate AXI QUAD SPI dropped clock cycles after start up
 
 Packaged to use with Vivado IP Integrator
 
+'''
 
 `timescale 1ns / 1ps
 `default_nettype	none
@@ -38,3 +39,5 @@ always @(posedge i_clk ) begin
 end
 
 endmodule
+
+'''
